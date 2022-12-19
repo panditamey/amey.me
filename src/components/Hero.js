@@ -6,9 +6,6 @@ import Typed from 'react-typed';
 
 function Hero() {
 
-    function btnClick() {
-        window.open("https://www.google.com");
-    }
     return (
         <>
             <NavBar />
@@ -23,7 +20,7 @@ function Hero() {
 
                     </div>
                     <div className='text-center'>
-                    <a href="https://google.com" target="_blank" rel="noreferrer">
+                    <a href="https://resume.amey.me/" target="_blank" rel="noreferrer">
                             <button className='bg-[#4a15e8] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Resume</button>
                             </a>
                     </div>
