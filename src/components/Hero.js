@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from "./NavBar";
 import Spline from '@splinetool/react-spline';
 import Typed from 'react-typed';
 
@@ -8,9 +7,8 @@ function Hero() {
 
     return (
         <>
-            <NavBar />
             <div className="xl:flex items-center justify-center content-center ">
-                <div className="xl:w-[45%] h-screen sm:w-full w-screen sm:pl-4">
+                <div className="xl:w-[45%] pt-0	 h-screen sm:w-full w-screen sm:pl-4">
                     <Spline scene="https://prod.spline.design/X1b0t00wccvPRmmm/scene.splinecode" />
                 </div>
                 <div className="xl:w-[40%] text-left sm:w-full">
@@ -20,10 +18,13 @@ function Hero() {
 
                     </div>
                     <div className='text-center'>
-                    <a href="https://resume.amey.me/" target="_blank" rel="noreferrer">
-                            <button className='bg-[#4a15e8] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Resume</button>
-                            </a>
+                        <a href="https://resume.amey.me/" target="_blank" rel="noreferrer">
+                            <button className='text-1xl text-white w-[145px] rounded-md my-6 mx-auto py-3 bg-[#4a15e8] border-[#4a15e8] hover:ring-2 focus:outline-none hover:ring-gray-100 font-medium px-5 text-center inline-flex items-center  mr-2 mb-2'>
+                                <img src="\icons\cv.png" style={{ width: "33px", height: "24px", paddingRight: "12px" }} />
+                                Resume</button>
+                        </a>
                     </div>
+
                 </div>
             </div>
         </>
