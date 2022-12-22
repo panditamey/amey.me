@@ -9,9 +9,9 @@ import React from 'react';
 function Skills() {
     return (
         <>
-            <div className='md:p-20 md:h-5 sm:p-20  bg-[#190061] justify-center text-center text-white'>
+            <div className='md:p-20 md:h-5 sm:p-20   justify-center text-center text-white'>
                 <div>
-                    <h1 className='text-4xl font-bold pb-6 uppercase ' >Skills</h1>
+                    <h1 className='text-4xl font-bold pb-6 uppercase ' >My Skills</h1>
                 </div>
                 <div className='xl:px-[35%] lg:px-[35%] sm:px-4 md:px-6 pb-10'>
                     <div className='inline-flex flex-wrap items-center justify-center content-center'>

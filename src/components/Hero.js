@@ -9,7 +9,7 @@ function Hero() {
         <>
             <div className="xl:flex items-center justify-center content-center ">
                 <div className="xl:w-[45%] pt-0	 h-screen sm:w-full w-screen sm:pl-4">
-                    <Spline scene="https://prod.spline.design/X1b0t00wccvPRmmm/scene.splinecode" />
+                <Spline scene="https://prod.spline.design/X1b0t00wccvPRmmm/scene.splinecode" />
                 </div>
                 <div className="xl:w-[40%] text-left sm:w-full">
                     <div className='pl-4 text-3xl font-bold flex'>
