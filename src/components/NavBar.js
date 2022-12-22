@@ -37,10 +37,17 @@ const NavBar = () => {
 
         <ul className='p-4 uppercase font-bold'>
           <li className='p-4 border-b  border-white'>Home</li>
-          <li className='p-4 border-b border-white'>Company</li>
-          <li className='p-4 border-b border-white'>Resources</li>
-          <li className='p-4 border-b border-white'>About</li>
+          <li className='p-4 border-b border-white'>Skills</li>
+          <li className='p-4 border-b border-white'>Experience</li>
+          <li className='p-4 border-b border-white'>Projects</li>
           <li className='p-4 '>Contact</li>
+          <li className='p-2'>
+          <a href="https://github.com/panditamey" target="_blank" rel="noreferrer">
+            <button className='text-1xl text-white w-[135px] rounded-md  mx-auto py-3 bg-[#4a15e8] border-[#4a15e8] hover:ring-2 focus:outline-none hover:ring-gray-100 font-medium px-5 text-center inline-flex items-center  mr-2 mb-2'>
+              <img src="\icons\github.png" style={{ width: "33px", height: "22px", paddingRight: "12px" }} />
+              Github</button>
+          </a>
+        </li>
         </ul>
       </div>
     </div>
