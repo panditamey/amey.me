@@ -10,11 +10,11 @@ const NavBar = () => {
   };
 
   return (
-    <div className='flex justify-between h-24 mx-auto px-5 text-white items-center'>
+    <div className='flex justify-between h-24 mx-auto px-5 text-white items-center home'>
       <h1 className='w-full text-3xl font-bold ' >Amey Pandit</h1>
 
       <ul className='md:flex text-1xl hidden font-bold ' >
-        <li className='p-4 '><Link to="/" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
+        <li className='p-4 '><Link to="home" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
         <li className='p-4'><Link to="skills" spy={true} smooth={true} offset={50} duration={500} >Skills</Link></li>
         <li className='p-4'><Link to="experience" spy={true} smooth={true} offset={50} duration={500} >Experience</Link></li>
         <li className='p-4'><Link to="projects" spy={true} smooth={true} offset={50} duration={500} >Projects</Link></li>
@@ -37,7 +37,7 @@ const NavBar = () => {
         <h1 className='w-full text-3xl font-bold m-4' >Amey Pandit</h1>
 
         <ul className='p-4 uppercase font-bold'>
-          <li className='p-4 border-b  border-white'><Link to="/" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
+          <li className='p-4 border-b  border-white'><Link to="home" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
           <li className='p-4 border-b border-white'><Link to="skills" spy={true} smooth={true} offset={50} duration={500} >Skills</Link></li>
           <li className='p-4 border-b border-white'><Link to="experience" spy={true} smooth={true} offset={50} duration={500} >Experience</Link></li>
           <li className='p-4 border-b border-white'><Link to="projects" spy={true} smooth={true} offset={50} duration={500} >Projects</Link></li>
