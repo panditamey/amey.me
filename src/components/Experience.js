@@ -2,9 +2,9 @@ import React from 'react'
 
 function Experience() {
     return (
-        <div className='mt-[22%] pb-20  justify-center text-center text-white'>
+        <div className='mt-[22%] pb-20  justify-center text-center text-white '>
             <div>
-                <h1 className='text-4xl font-bold pb-6 uppercase ' >My Experience</h1>
+                <h1 className='text-4xl font-bold pb-6 uppercase experience' >My Experience</h1>
                 {/* <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"> */}
                 {/* <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p> */}

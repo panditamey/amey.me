@@ -9,7 +9,7 @@ import Mhtcet from './projects/Mhtcet';
 function Projects() {
     return (
         <>
-            <h1 className='text-4xl font-bold pb-6 uppercase justify-center text-center text-white' >My Projects</h1>
+            <h1 className='text-4xl font-bold pb-6 uppercase justify-center text-center text-white projects' >My Projects</h1>
             <ItConnect/>
             <FarmerBuddy/>
             <Docify/>

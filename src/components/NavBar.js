@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { Link } from 'react-scroll'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -13,11 +14,11 @@ const NavBar = () => {
       <h1 className='w-full text-3xl font-bold ' >Amey Pandit</h1>
 
       <ul className='md:flex text-1xl hidden font-bold ' >
-        <li className='p-4 '>Home</li>
-        <li className='p-4'>Skills</li>
-        <li className='p-4'>Experience</li>
-        <li className='p-4'>Projects</li>
-        <li className='p-4'>Contact</li>
+        <li className='p-4 '><Link to="/" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
+        <li className='p-4'><Link to="skills" spy={true} smooth={true} offset={50} duration={500} >Skills</Link></li>
+        <li className='p-4'><Link to="experience" spy={true} smooth={true} offset={50} duration={500} >Experience</Link></li>
+        <li className='p-4'><Link to="projects" spy={true} smooth={true} offset={50} duration={500} >Projects</Link></li>
+        <li className='p-4'><Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact</Link></li>
         <li className='p-2'>
           <a href="https://github.com/panditamey" target="_blank" rel="noreferrer">
             <button className='text-1xl text-white w-[135px] rounded-md  mx-auto py-3 bg-[#4a15e8] border-[#4a15e8] hover:ring-2 focus:outline-none hover:ring-gray-100 font-medium px-5 text-center inline-flex items-center  mr-2 mb-2'>
@@ -36,18 +37,18 @@ const NavBar = () => {
         <h1 className='w-full text-3xl font-bold m-4' >Amey Pandit</h1>
 
         <ul className='p-4 uppercase font-bold'>
-          <li className='p-4 border-b  border-white'>Home</li>
-          <li className='p-4 border-b border-white'>Skills</li>
-          <li className='p-4 border-b border-white'>Experience</li>
-          <li className='p-4 border-b border-white'>Projects</li>
-          <li className='p-4 '>Contact</li>
+          <li className='p-4 border-b  border-white'><Link to="/" spy={true} smooth={true} offset={50} duration={500} >Home</Link></li>
+          <li className='p-4 border-b border-white'><Link to="skills" spy={true} smooth={true} offset={50} duration={500} >Skills</Link></li>
+          <li className='p-4 border-b border-white'><Link to="experience" spy={true} smooth={true} offset={50} duration={500} >Experience</Link></li>
+          <li className='p-4 border-b border-white'><Link to="projects" spy={true} smooth={true} offset={50} duration={500} >Projects</Link></li>
+          <li className='p-4 '><Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact</Link></li>
           <li className='p-2'>
-          <a href="https://github.com/panditamey" target="_blank" rel="noreferrer">
-            <button className='text-1xl text-white w-[135px] rounded-md  mx-auto py-3 bg-[#4a15e8] border-[#4a15e8] hover:ring-2 focus:outline-none hover:ring-gray-100 font-medium px-5 text-center inline-flex items-center  mr-2 mb-2'>
-              <img src="\icons\github.png" style={{ width: "33px", height: "22px", paddingRight: "12px" }} />
-              Github</button>
-          </a>
-        </li>
+            <a href="https://github.com/panditamey" target="_blank" rel="noreferrer">
+              <button className='text-1xl text-white w-[135px] rounded-md  mx-auto py-3 bg-[#4a15e8] border-[#4a15e8] hover:ring-2 focus:outline-none hover:ring-gray-100 font-medium px-5 text-center inline-flex items-center  mr-2 mb-2'>
+                <img src="\icons\github.png" style={{ width: "33px", height: "22px", paddingRight: "12px" }} />
+                Github</button>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

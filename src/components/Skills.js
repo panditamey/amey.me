@@ -9,7 +9,7 @@ import React from 'react';
 function Skills() {
     return (
         <>
-            <div className='md:p-20 md:h-5 sm:p-20   justify-center text-center text-white'>
+            <div className='md:p-20 md:h-5 sm:p-20   justify-center text-center text-white skills'>
                 <div>
                     <h1 className='text-4xl font-bold pb-6 uppercase ' >My Skills</h1>
                 </div>
